@@ -1,4 +1,4 @@
-package specializtion
+package specialization
 
 type Specializtion struct {
   ID          int    `json:"id"`

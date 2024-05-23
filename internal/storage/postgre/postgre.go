@@ -36,198 +36,142 @@ func New() (*Postgre, error) {
         name VARCHAR(50) NOT NULL,
         image_url VARCHAR(255) NOT NULL,
         tarif_id INT DEFAULT 1,
-        onborading BOOLEAN DEFAULT FALSE,
+        onboarding BOOLEAN DEFAULT FALSE,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     ); 
   `
   
   createTarifTable := `
     CREATE TABLE IF NOT EXISTS tarifs (
-      id SERIAL PRIMARY KEY,
-      title VARCHAR(50) NOT NULL,
-      description TEXT NOT NULL,
-      price INT NOT NULL,
-      image_url VARCHAR(255) NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        title VARCHAR(50) NOT NULL,
+        description TEXT NOT NULL,
+        price INT NOT NULL,
+        image_url VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
 
   createSubscribeTable := `
     CREATE TABLE IF NOT EXISTS subscribes (
-      id SERIAL PRIMARY KEY,
-      user_id INT NOT NULL,
-      subscriber_id INT NOT NULL,
-      status VARCHAR(50) NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        user_id INT NOT NULL,
+        subscriber_id INT NOT NULL,
+        status VARCHAR(50) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
 
   createGroupTable := `
     CREATE TABLE IF NOT EXISTS groups (
-      id SERIAL PRIMARY KEY,
-      title VARCHAR(50) NOT NULL,
-      description TEXT NOT NULL,
-      creater_id INT NOT NULL,
-      image_url VARCHAR(255) NOT NULL,
-      telegram_link VARCHAR(255) NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        title VARCHAR(50) NOT NULL,
+        description TEXT NOT NULL,
+        creator_id INT NOT NULL,
+        image_url VARCHAR(255) NOT NULL,
+        telegram_link VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
   
   createSubscribeGroupTable := `
     CREATE TABLE IF NOT EXISTS subscribe_groups (
-      id SERIAL PRIMARY KEY,
-      user_id INT NOT NULL,
-      group_id INT NOT NULL,
-      status VARCHAR(50) NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        user_id INT NOT NULL,
+        group_id INT NOT NULL,
+        status VARCHAR(50) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
 
   createActivityTable := `
     CREATE TABLE IF NOT EXISTS activities (
-      id SERIAL PRIMARY KEY,
-      user_id INT NOT NULL,
-      title VARCHAR(50) NOT NULL,
-      description TEXT NOT NULL,
-      location VARCHAR(50) NOT NULL,
-      category_id INT NOT NULL,
-      image_url VARCHAR(255) NOT NULL,
-      subcategory_id INT NOT NULL,
-      specialization_id INT NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        user_id INT NOT NULL,
+        title VARCHAR(50) NOT NULL,
+        description TEXT NOT NULL,
+        location VARCHAR(50) NOT NULL,
+        category_id INT NOT NULL,
+        image_url VARCHAR(255) NOT NULL,
+        subcategory_id INT NOT NULL,
+        specialization_id INT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
 
   createRequestTable := `
     CREATE TABLE IF NOT EXISTS requests (
-      id SERIAL PRIMARY KEY,
-      user_id INT NOT NULL,
-      title VARCHAR(50) NOT NULL,
-      description TEXT NOT NULL,
-      location VARCHAR(50) NOT NULL,
-      category_id INT NOT NULL,
-      subcategory_id INT NOT NULL,
-      specialization_id INT NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        user_id INT NOT NULL,
+        title VARCHAR(50) NOT NULL,
+        description TEXT NOT NULL,
+        location VARCHAR(50) NOT NULL,
+        category_id INT NOT NULL,
+        subcategory_id INT NOT NULL,
+        specialization_id INT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
 
   createCategoryTable := `
     CREATE TABLE IF NOT EXISTS categories (
-      id SERIAL PRIMARY KEY,
-      title VARCHAR(50) NOT NULL,
+        id SERIAL PRIMARY KEY,
+        title VARCHAR(50) NOT NULL
     );
   `
 
   createSubcategoryTable := `
     CREATE TABLE IF NOT EXISTS subcategories (
-      id SERIAL PRIMARY KEY,
-      title VARCHAR(50) NOT NULL,
-      category_id INT NOT NULL,
+        id SERIAL PRIMARY KEY,
+        title VARCHAR(50) NOT NULL,
+        category_id INT NOT NULL
     );
   `
 
   createSpecializationTable := `
     CREATE TABLE IF NOT EXISTS specializations (
-      id SERIAL PRIMARY KEY,
-      title VARCHAR(50) NOT NULL,
-      subcategory_id INT NOT NULL,
+        id SERIAL PRIMARY KEY,
+        title VARCHAR(50) NOT NULL,
+        subcategory_id INT NOT NULL
     );
   `
 
   createReviewTable := `
     CREATE TABLE IF NOT EXISTS reviews (
-      id SERIAL PRIMARY KEY,
-      user_id INT NOT NULL,
-      description TEXT NOT NULL,
-      author_id INT NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        user_id INT NOT NULL,
+        description TEXT NOT NULL,
+        author_id INT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
 
   createRaportTable := `
     CREATE TABLE IF NOT EXISTS raports (
-      id SERIAL PRIMARY KEY,
-      user_id INT NOT NULL,
-      description TEXT NOT NULL,
-      author_id INT NOT NULL,
-      status VARCHAR(50) NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        id SERIAL PRIMARY KEY,
+        user_id INT NOT NULL,
+        description TEXT NOT NULL,
+        author_id INT NOT NULL,
+        status VARCHAR(50) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
   `
 
-  _, err = conn.Exec(context.Background(), createActivityTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
+  // Execute table creation queries
+  tables := []string{
+    createUserTable, createTarifTable, createSubscribeTable,
+    createGroupTable, createSubscribeGroupTable, createActivityTable,
+    createRequestTable, createCategoryTable, createSubcategoryTable,
+    createSpecializationTable, createReviewTable, createRaportTable,
   }
 
-  _, err = conn.Exec(context.Background(), createRequestTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
+  for _, tableQuery := range tables {
+    _, err = conn.Exec(context.Background(), tableQuery)
+    if err != nil {
+      return nil, fmt.Errorf("%s: %w", op, err)
+    }
   }
 
-  _, err = conn.Exec(context.Background(), createCategoryTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createSubcategoryTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createSpecializationTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createReviewTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createRaportTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createTarifTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createSubscribeTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createGroupTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createSubscribeGroupTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
-
-  _, err = conn.Exec(context.Background(), createUserTable)
-
-  if err != nil {
-    return nil, fmt.Errorf("%s: %w", op, err)
-  }
   return &Postgre{conn: conn}, nil
 }
 
