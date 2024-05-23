@@ -1,0 +1,330 @@
+2024/05/22 21:08:55 CONFIG_PATH is required
+2024/05/22 21:11:31 Config file not found: /path/to/your/config/file.yaml
+2024/05/22 21:12:03 Config file not found: /config/local.yaml
+2024/05/22 21:13:22 Config file not found: var/www/prichal/config/local.yaml
+[21:03:03.421] INFO: Starting server {
+  "env": "local"
+}
+[21:03:03.421] DEBUG: debug messages are enabled 
+[21:03:03.439] INFO: logger middleware enabled {
+  "component": "middleware/logger"
+}
+[21:03:03.439] INFO: Server started {
+  "addr": "localhost:8080"
+}
+[21:03:03.439] ERROR: failed to listen {
+  "error": "listen tcp 127.0.0.1:8080: bind: address already in use"
+}
+[21:12:12.669] INFO: Starting server {
+  "env": "local"
+}
+[21:12:12.669] DEBUG: debug messages are enabled 
+[21:12:12.679] INFO: logger middleware enabled {
+  "component": "middleware/logger"
+}
+[21:12:12.679] INFO: Server started {
+  "addr": "localhost:8080"
+}
+[21:12:12.679] ERROR: failed to listen {
+  "error": "listen tcp 127.0.0.1:8080: bind: address already in use"
+}
+[21:40:40.783] INFO: Starting server {
+  "env": "local"
+}
+[21:40:40.783] DEBUG: debug messages are enabled 
+[21:40:40.791] INFO: logger middleware enabled {
+  "component": "middleware/logger"
+}
+[21:40:40.791] INFO: Server started {
+  "addr": "localhost:8081"
+}
+[21:24:24.115] INFO: request completed {
+  "bytes": 19,
+  "duration": "50.914µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:50452",
+  "request_id": "srv451534/xAq0UAzTMN-000001",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[00:04:04.534] INFO: request completed {
+  "bytes": 19,
+  "duration": "27.772µs",
+  "method": "GET",
+  "path": "/nmaplowercheck1716422404",
+  "remote_addr": "127.0.0.1:53756",
+  "request_id": "srv451534/xAq0UAzTMN-000002",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:04:04.551] INFO: request completed {
+  "bytes": 19,
+  "duration": "241.017µs",
+  "method": "GET",
+  "path": "/base.pl",
+  "remote_addr": "127.0.0.1:53768",
+  "request_id": "srv451534/xAq0UAzTMN-000003",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:04:04.960] INFO: request completed {
+  "bytes": 19,
+  "duration": "41.607µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:53770",
+  "request_id": "srv451534/xAq0UAzTMN-000004",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:06:06.604] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.367µs",
+  "method": "GET",
+  "path": "/default.cgi",
+  "remote_addr": "127.0.0.1:53778",
+  "request_id": "srv451534/xAq0UAzTMN-000005",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:07:07.446] INFO: request completed {
+  "bytes": 19,
+  "duration": "32.801µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:53788",
+  "request_id": "srv451534/xAq0UAzTMN-000006",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:08:08.364] INFO: request completed {
+  "bytes": 19,
+  "duration": "36.328µs",
+  "method": "GET",
+  "path": "/inicio.jhtml",
+  "remote_addr": "127.0.0.1:53800",
+  "request_id": "srv451534/xAq0UAzTMN-000007",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:08:08.364] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.97µs",
+  "method": "GET",
+  "path": "/favicon.ico",
+  "remote_addr": "127.0.0.1:53814",
+  "request_id": "srv451534/xAq0UAzTMN-000008",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:08:08.994] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.94µs",
+  "method": "GET",
+  "path": "/Portal0000.htm",
+  "remote_addr": "127.0.0.1:53822",
+  "request_id": "srv451534/xAq0UAzTMN-000009",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:09:09.034] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.795µs",
+  "method": "GET",
+  "path": "/CSS/Miniweb.css",
+  "remote_addr": "127.0.0.1:53826",
+  "request_id": "srv451534/xAq0UAzTMN-000010",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:09:09.226] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.052µs",
+  "method": "GET",
+  "path": "/menu.shtml",
+  "remote_addr": "127.0.0.1:53838",
+  "request_id": "srv451534/xAq0UAzTMN-000011",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:09:09.632] INFO: request completed {
+  "bytes": 19,
+  "duration": "36.508µs",
+  "method": "GET",
+  "path": "/__Additional",
+  "remote_addr": "127.0.0.1:53840",
+  "request_id": "srv451534/xAq0UAzTMN-000012",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:10:10.431] INFO: request completed {
+  "bytes": 19,
+  "duration": "54.009µs",
+  "method": "GET",
+  "path": "/start.aspx",
+  "remote_addr": "127.0.0.1:53860",
+  "request_id": "srv451534/xAq0UAzTMN-000013",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:10:10.431] INFO: request completed {
+  "bytes": 19,
+  "duration": "12.222µs",
+  "method": "GET",
+  "path": "/Portal/Portal.mwsl",
+  "remote_addr": "127.0.0.1:53852",
+  "request_id": "srv451534/xAq0UAzTMN-000014",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:11:11.168] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.89µs",
+  "method": "GET",
+  "path": "/docs/cplugError.html/",
+  "remote_addr": "127.0.0.1:53864",
+  "request_id": "srv451534/xAq0UAzTMN-000015",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:11:11.331] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.124µs",
+  "method": "GET",
+  "path": "/menu.jsa",
+  "remote_addr": "127.0.0.1:53870",
+  "request_id": "srv451534/xAq0UAzTMN-000016",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:11:11.710] INFO: request completed {
+  "bytes": 19,
+  "duration": "34.664µs",
+  "method": "GET",
+  "path": "/index.cfm",
+  "remote_addr": "127.0.0.1:53880",
+  "request_id": "srv451534/xAq0UAzTMN-000017",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:12:12.446] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.635µs",
+  "method": "GET",
+  "path": "/rest/applinks/1.0/manifest",
+  "remote_addr": "127.0.0.1:53892",
+  "request_id": "srv451534/xAq0UAzTMN-000018",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:12:12.465] INFO: request completed {
+  "bytes": 19,
+  "duration": "39.703µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:53906",
+  "request_id": "srv451534/xAq0UAzTMN-000019",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:12:12.820] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.505µs",
+  "method": "HEAD",
+  "path": "/",
+  "remote_addr": "127.0.0.1:54188",
+  "request_id": "srv451534/xAq0UAzTMN-000020",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:12:12.873] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.788µs",
+  "method": "GET",
+  "path": "/inicio.shtml",
+  "remote_addr": "127.0.0.1:54196",
+  "request_id": "srv451534/xAq0UAzTMN-000021",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:12:12.876] INFO: request completed {
+  "bytes": 19,
+  "duration": "31.168µs",
+  "method": "GET",
+  "path": "/confluence/rest/applinks/1.0/manifest",
+  "remote_addr": "127.0.0.1:54198",
+  "request_id": "srv451534/xAq0UAzTMN-000022",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:12:12.877] INFO: request completed {
+  "bytes": 19,
+  "duration": "13.945µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:54204",
+  "request_id": "srv451534/xAq0UAzTMN-000023",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:13:13.621] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.125µs",
+  "method": "GET",
+  "path": "/indice.cfm",
+  "remote_addr": "127.0.0.1:54214",
+  "request_id": "srv451534/xAq0UAzTMN-000024",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:14:14.193] INFO: request completed {
+  "bytes": 19,
+  "duration": "22.471µs",
+  "method": "GET",
+  "path": "/menu.cfm",
+  "remote_addr": "127.0.0.1:54222",
+  "request_id": "srv451534/xAq0UAzTMN-000025",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:14:14.265] INFO: request completed {
+  "bytes": 19,
+  "duration": "38.331µs",
+  "method": "GET",
+  "path": "/ht4L",
+  "remote_addr": "127.0.0.1:54238",
+  "request_id": "srv451534/xAq0UAzTMN-000026",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:14:14.265] INFO: request completed {
+  "bytes": 19,
+  "duration": "13.445µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:54224",
+  "request_id": "srv451534/xAq0UAzTMN-000027",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:14:14.814] INFO: request completed {
+  "bytes": 19,
+  "duration": "30.407µs",
+  "method": "POST",
+  "path": "/sdk",
+  "remote_addr": "127.0.0.1:54248",
+  "request_id": "srv451534/xAq0UAzTMN-000028",
+  "status": 404,
+  "user_agent": "curl/7.54.0"
+}
+[00:24:24.969] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.865µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:49224",
+  "request_id": "srv451534/xAq0UAzTMN-000029",
+  "status": 404,
+  "user_agent": ""
+}
