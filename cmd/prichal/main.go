@@ -59,7 +59,7 @@ func main() {
 
 	// Define your routes
 	router.Post("/users", create.New(log, storage))
-	router.Post("api/telegram/webhook", telegram.HandleWebhook)
+	router.Post("/api/telegram/webhook", telegram.HandleWebhook)
 
 	log.Info("Server started", slog.String("addr", cfg.Address))
 
