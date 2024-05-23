@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-
+  "strconv"
 	"github.com/jackc/pgx/v4/pgxpool"
-	tb "github.com/tucnak/telebot"
+	tb "gopkg.in/telebot.v3"
 )
 
 var bot *tb.Bot
@@ -52,17 +52,17 @@ func HandleWebhook(w http.ResponseWriter, r *http.Request) {
 		if err != nil {
 			log.Printf("Failed to create user: %v", err)
 			return
+	  }	
+    button := tb.InlineButton{
+			Text: "Открыть веб-приложение",
+			WebApp: &tb.WebApp{
+				URL: fmt.Sprintf("https://prichal.weble.kz/home/%s", strconv.Itoa(chatID)),
+			},
 		}
-
 		// Create a keyboard with a web app button
 		keyboard := &tb.ReplyMarkup{
 			InlineKeyboard: [][]tb.InlineButton{
-				{
-					{
-						Text: "Open Web App",
-						URL:  "https://prichal.weble.kz/home/" + fmt.Sprintf("%d", chatID),
-					},
-				},
+				{button},
 			},
 		}
 

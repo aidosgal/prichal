@@ -14,7 +14,7 @@ import (
 	"github.com/aidosgal/prichal/internal/storage/postgre"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	tb "github.com/tucnak/telebot"
+	tb "gopkg.in/telebot.v3"
 )
 
 const (
