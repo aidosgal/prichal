@@ -46,9 +46,21 @@ func HandleWebhook(w http.ResponseWriter, r *http.Request) {
 
 	if text == "/start" {
 		log.Println("Received /start command")
+    
+    exists, err := isUserExists(chatID)
 
-		// Insert user into the database
-		err := createUser(username, chatID, name, "")
+    if err != nil {
+      log.Printf("Failed to check if user exists: %v", err)
+      return
+    }
+
+    if exists {
+      log.Println("User already exists")
+      w.WriteHeader(http.StatusOK)
+      return
+    }
+
+		err = createUser(username, chatID, name, "")
 		if err != nil {
 			log.Printf("Failed to create user: %v", err)
 			return
@@ -85,4 +97,16 @@ func createUser(username string, chatID int, name string, imageURL string) error
 	`
 	_, err := postgres.Exec(context.Background(), query, username, chatID, name, imageURL)
 	return err
+}
+
+func isUserExists(chatID int) (bool, error) {
+  const query = `
+    SELECT EXISTS(SELECT 1 FROM users WHERE chat_id = $1)
+  `
+  var exists bool
+  err := postgres.QueryRow(context.Background(), query, chatID).Scan(&exists)
+  if err != nil {
+    return false, err
+  }
+  return exists, nil
 }

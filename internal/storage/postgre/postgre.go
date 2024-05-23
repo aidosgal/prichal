@@ -350,12 +350,28 @@ func (p *Postgre) Subscribe(userID int, subscriberID int) error {
     VALUES ($1, $2, $3)
   `
 
-  _, err := p.conn.Exec(context.Background(), query, userID, subscriberID, "active")
+  _, err := p.conn.Exec(context.Background(), query, userID, subscriberID, "Знакомый")
 
   if err != nil {
     return fmt.Errorf("%s: %w", op, err)
   }
 
+  return nil
+}
+
+func (p *Postgre) UpdateStatus(userID int, subscriberID, status string) error {
+  const op = "storage.postgre.UpdateStatus"
+  query := `
+    UPDATE subscribes
+    SET status = $1
+    WHERE user_id = $2 AND subscriber_id = $3
+  `
+  _, err := p.conn.Exec(context.Background(), query, status, userID, subscriberID)
+
+  if err != nil {
+    return fmt.Errorf("%s: %w", op, err)
+  }
+  
   return nil
 }
 
