@@ -847,6 +847,38 @@ func (p *Postgre) UpdateRequest(id int, title string, description string, locati
   return nil
 }
 
+func (p *Postgre) GetUsersByRequest(request_title string, location string) ([]user.User, error) {
+  const op = "storage.postgre.GetUsersByRequest"
+  
+  query := `
+    SELECT * FROM users
+    WHERE id IN (
+      SELECT user_id FROM activities
+      WHERE title = $1 AND location = $2
+    )
+  `
+  rows, err := p.conn.Query(context.Background(), query, request_title, location)
+
+  var users []user.User
+
+  for rows.Next() {
+    var user user.User
+    err := rows.Scan(&user.ID, &user.Username, &user.ChatID, &user.Name, &user.ImageURL, &user.TarifID)
+    
+    if err != nil {
+      return nil, fmt.Errorf("%s: %w", op, err)
+    }
+
+    users = append(users, user)
+  }
+
+  if err != nil {
+    return nil, fmt.Errorf("%s: %w", op, err)
+  }
+
+  return users, nil
+}
+
 func (p *Postgre) CreateCategory(title string) error {
   const op = "storage.postgre.CreateCategory"
   query := `

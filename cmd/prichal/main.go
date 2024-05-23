@@ -10,6 +10,9 @@ import (
 	"github.com/aidosgal/prichal/internal/http-server/handlers/telegram"
 	"github.com/aidosgal/prichal/internal/http-server/handlers/user/createuser"
   "github.com/aidosgal/prichal/internal/http-server/handlers/user/getuser"
+  "github.com/aidosgal/prichal/internal/http-server/handlers/activity/createactivity"
+  "github.com/aidosgal/prichal/internal/http-server/handlers/request/createrequest"
+  "github.com/aidosgal/prichal/internal/http-server/handlers/request/getusersbyrequest"
   "github.com/aidosgal/prichal/internal/http-server/handlers/user/subscribe"
 	mwLogger "github.com/aidosgal/prichal/internal/http-server/middleware/logger"
 	sl "github.com/aidosgal/prichal/internal/lib/logger/handlers/slogpretty"
@@ -63,6 +66,9 @@ func main() {
 	router.Post("/users", createuser.New(log, storage))
   router.Get("/users/{chat_id}", getuser.New(log, storage))
   router.Post("/subscribe/{user_id}", subscribe.New(log, storage))
+  router.Post("/activity", createactivity.New(log, storage))
+  router.Post("/request", createrequest.New(log, storage))
+  router.Get("/usersbyrequest", getusersbyrequest.New(log, storage))
 	router.Post("/api/telegram/webhook", telegram.HandleWebhook)
 
 	log.Info("Server started", slog.String("addr", cfg.Address))
