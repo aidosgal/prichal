@@ -20,6 +20,10 @@ type Postgre struct {
   conn *pgxpool.Pool
 }
 
+func (p *Postgre) Conn() *pgxpool.Pool {
+	return p.conn
+}
+
 func New() (*Postgre, error) {
   const op = "storage.postgre.New"
   conn, err := pgxpool.Connect(context.Background(), "postgres://postgres:aidos2004@localhost:5432/prichal")
