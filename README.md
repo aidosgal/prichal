@@ -2,7 +2,7 @@
 - [ ] Add a description of the project
 - [ ] Loggin from telegram
 - [ ] CRUD Groups
-- [*] CRUD Users
+- [x] CRUD Users
 - [ ] CRUD Activities
 - [ ] CRUD Requests
 - [ ] CRUD Subscriptions
