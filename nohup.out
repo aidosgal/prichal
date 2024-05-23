@@ -328,3 +328,995 @@
   "status": 404,
   "user_agent": ""
 }
+[08:28:28.969] INFO: request completed {
+  "bytes": 19,
+  "duration": "2.818596ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:45996",
+  "request_id": "srv451534/xAq0UAzTMN-000030",
+  "status": 404,
+  "user_agent": ""
+}
+[08:28:28.980] INFO: request completed {
+  "bytes": 19,
+  "duration": "632.152µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:46012",
+  "request_id": "srv451534/xAq0UAzTMN-000031",
+  "status": 404,
+  "user_agent": ""
+}
+[08:30:30.985] INFO: request completed {
+  "bytes": 19,
+  "duration": "21.069µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:46026",
+  "request_id": "srv451534/xAq0UAzTMN-000032",
+  "status": 404,
+  "user_agent": ""
+}
+[08:34:34.990] INFO: request completed {
+  "bytes": 19,
+  "duration": "27.121µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:60578",
+  "request_id": "srv451534/xAq0UAzTMN-000033",
+  "status": 404,
+  "user_agent": ""
+}
+[08:42:42.998] INFO: request completed {
+  "bytes": 19,
+  "duration": "423.766µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:48750",
+  "request_id": "srv451534/xAq0UAzTMN-000034",
+  "status": 404,
+  "user_agent": ""
+}
+[08:59:59.004] INFO: request completed {
+  "bytes": 19,
+  "duration": "85.469µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:60354",
+  "request_id": "srv451534/xAq0UAzTMN-000035",
+  "status": 404,
+  "user_agent": ""
+}
+[08:31:31.008] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.653µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:32830",
+  "request_id": "srv451534/xAq0UAzTMN-000036",
+  "status": 404,
+  "user_agent": ""
+}
+[08:35:35.012] INFO: request completed {
+  "bytes": 19,
+  "duration": "28.814µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:54748",
+  "request_id": "srv451534/xAq0UAzTMN-000037",
+  "status": 404,
+  "user_agent": ""
+}
+[08:39:39.017] INFO: request completed {
+  "bytes": 19,
+  "duration": "33.031µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:49096",
+  "request_id": "srv451534/xAq0UAzTMN-000038",
+  "status": 404,
+  "user_agent": ""
+}
+[08:03:03.024] INFO: request completed {
+  "bytes": 19,
+  "duration": "27.23µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:48818",
+  "request_id": "srv451534/xAq0UAzTMN-000039",
+  "status": 404,
+  "user_agent": ""
+}
+[08:56:56.306] INFO: request completed {
+  "bytes": 19,
+  "duration": "34.615µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:58568",
+  "request_id": "srv451534/xAq0UAzTMN-000040",
+  "status": 404,
+  "user_agent": ""
+}
+[08:56:56.310] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.798µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:58570",
+  "request_id": "srv451534/xAq0UAzTMN-000041",
+  "status": 404,
+  "user_agent": ""
+}
+[08:58:58.315] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.979µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:58582",
+  "request_id": "srv451534/xAq0UAzTMN-000042",
+  "status": 404,
+  "user_agent": ""
+}
+[08:02:02.318] INFO: request completed {
+  "bytes": 19,
+  "duration": "27.912µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:58596",
+  "request_id": "srv451534/xAq0UAzTMN-000043",
+  "status": 404,
+  "user_agent": ""
+}
+[08:10:10.327] INFO: request completed {
+  "bytes": 19,
+  "duration": "28.062µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:41798",
+  "request_id": "srv451534/xAq0UAzTMN-000044",
+  "status": 404,
+  "user_agent": ""
+}
+[08:26:26.332] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.005µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:36896",
+  "request_id": "srv451534/xAq0UAzTMN-000045",
+  "status": 404,
+  "user_agent": ""
+}
+[08:37:37.028] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.145µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:42826",
+  "request_id": "srv451534/xAq0UAzTMN-000046",
+  "status": 404,
+  "user_agent": ""
+}
+[08:58:58.336] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.756µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:32850",
+  "request_id": "srv451534/xAq0UAzTMN-000047",
+  "status": 404,
+  "user_agent": ""
+}
+[08:00:00.341] INFO: request completed {
+  "bytes": 19,
+  "duration": "29.455µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:49986",
+  "request_id": "srv451534/xAq0UAzTMN-000048",
+  "status": 404,
+  "user_agent": ""
+}
+[08:15:15.033] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.969µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:52500",
+  "request_id": "srv451534/xAq0UAzTMN-000049",
+  "status": 404,
+  "user_agent": ""
+}
+[08:38:38.812] INFO: request completed {
+  "bytes": 19,
+  "duration": "29.135µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:49970",
+  "request_id": "srv451534/xAq0UAzTMN-000050",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:59:59.850] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.138µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:53858",
+  "request_id": "srv451534/xAq0UAzTMN-000051",
+  "status": 404,
+  "user_agent": ""
+}
+[08:59:59.855] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.615µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:53870",
+  "request_id": "srv451534/xAq0UAzTMN-000052",
+  "status": 404,
+  "user_agent": ""
+}
+[08:59:59.859] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.669µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:53884",
+  "request_id": "srv451534/xAq0UAzTMN-000053",
+  "status": 404,
+  "user_agent": ""
+}
+[08:59:59.862] INFO: request completed {
+  "bytes": 19,
+  "duration": "19.796µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:53890",
+  "request_id": "srv451534/xAq0UAzTMN-000054",
+  "status": 404,
+  "user_agent": ""
+}
+[08:01:01.864] INFO: request completed {
+  "bytes": 19,
+  "duration": "211.642µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:53896",
+  "request_id": "srv451534/xAq0UAzTMN-000055",
+  "status": 404,
+  "user_agent": ""
+}
+[08:01:01.869] INFO: request completed {
+  "bytes": 19,
+  "duration": "29.184µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:53900",
+  "request_id": "srv451534/xAq0UAzTMN-000056",
+  "status": 404,
+  "user_agent": ""
+}
+[08:05:05.868] INFO: request completed {
+  "bytes": 19,
+  "duration": "43.581µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:37152",
+  "request_id": "srv451534/xAq0UAzTMN-000057",
+  "status": 404,
+  "user_agent": ""
+}
+[08:05:05.873] INFO: request completed {
+  "bytes": 19,
+  "duration": "21.71µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:37158",
+  "request_id": "srv451534/xAq0UAzTMN-000058",
+  "status": 404,
+  "user_agent": ""
+}
+[08:13:13.874] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.727µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:34318",
+  "request_id": "srv451534/xAq0UAzTMN-000059",
+  "status": 404,
+  "user_agent": ""
+}
+[08:13:13.878] INFO: request completed {
+  "bytes": 19,
+  "duration": "41.447µs",
+  "method": "POST",
+  "path": "/telegram/webhook",
+  "remote_addr": "127.0.0.1:34320",
+  "request_id": "srv451534/xAq0UAzTMN-000060",
+  "status": 404,
+  "user_agent": ""
+}
+[08:23:23.690] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.088µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59960",
+  "request_id": "srv451534/xAq0UAzTMN-000061",
+  "status": 404,
+  "user_agent": ""
+}
+[08:23:23.693] INFO: request completed {
+  "bytes": 19,
+  "duration": "16.381µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59974",
+  "request_id": "srv451534/xAq0UAzTMN-000062",
+  "status": 404,
+  "user_agent": ""
+}
+[08:23:23.703] INFO: request completed {
+  "bytes": 19,
+  "duration": "28.143µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59984",
+  "request_id": "srv451534/xAq0UAzTMN-000063",
+  "status": 404,
+  "user_agent": ""
+}
+[08:23:23.708] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.475µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59994",
+  "request_id": "srv451534/xAq0UAzTMN-000064",
+  "status": 404,
+  "user_agent": ""
+}
+[08:25:25.711] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.043µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:60000",
+  "request_id": "srv451534/xAq0UAzTMN-000065",
+  "status": 404,
+  "user_agent": ""
+}
+[08:25:25.715] INFO: request completed {
+  "bytes": 19,
+  "duration": "21.23µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:60012",
+  "request_id": "srv451534/xAq0UAzTMN-000066",
+  "status": 404,
+  "user_agent": ""
+}
+[08:29:29.716] INFO: request completed {
+  "bytes": 19,
+  "duration": "28.001µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:60026",
+  "request_id": "srv451534/xAq0UAzTMN-000067",
+  "status": 404,
+  "user_agent": ""
+}
+[08:29:29.719] INFO: request completed {
+  "bytes": 19,
+  "duration": "85.157µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:60042",
+  "request_id": "srv451534/xAq0UAzTMN-000068",
+  "status": 404,
+  "user_agent": ""
+}
+[08:37:37.720] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.208µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:46274",
+  "request_id": "srv451534/xAq0UAzTMN-000069",
+  "status": 404,
+  "user_agent": ""
+}
+[08:37:37.723] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.074µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:46290",
+  "request_id": "srv451534/xAq0UAzTMN-000070",
+  "status": 404,
+  "user_agent": ""
+}
+[08:53:53.725] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.807µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:45472",
+  "request_id": "srv451534/xAq0UAzTMN-000071",
+  "status": 404,
+  "user_agent": ""
+}
+[08:53:53.730] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.427µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:45486",
+  "request_id": "srv451534/xAq0UAzTMN-000072",
+  "status": 404,
+  "user_agent": ""
+}
+[08:21:21.411] INFO: request completed {
+  "bytes": 19,
+  "duration": "38.29µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:41240",
+  "request_id": "srv451534/xAq0UAzTMN-000073",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:25:25.730] INFO: request completed {
+  "bytes": 19,
+  "duration": "18.344µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59280",
+  "request_id": "srv451534/xAq0UAzTMN-000074",
+  "status": 404,
+  "user_agent": ""
+}
+[08:25:25.735] INFO: request completed {
+  "bytes": 19,
+  "duration": "21.861µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59296",
+  "request_id": "srv451534/xAq0UAzTMN-000075",
+  "status": 404,
+  "user_agent": ""
+}
+[08:29:29.735] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.787µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:43832",
+  "request_id": "srv451534/xAq0UAzTMN-000076",
+  "status": 404,
+  "user_agent": ""
+}
+[08:29:29.739] INFO: request completed {
+  "bytes": 19,
+  "duration": "19.777µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:43840",
+  "request_id": "srv451534/xAq0UAzTMN-000077",
+  "status": 404,
+  "user_agent": ""
+}
+[08:48:48.311] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.728µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37280",
+  "request_id": "srv451534/xAq0UAzTMN-000078",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:50:50.061] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.814µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37286",
+  "request_id": "srv451534/xAq0UAzTMN-000079",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:50:50.702] INFO: request completed {
+  "bytes": 19,
+  "duration": "232.952µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37300",
+  "request_id": "srv451534/xAq0UAzTMN-000080",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:51:51.001] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.169µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37308",
+  "request_id": "srv451534/xAq0UAzTMN-000081",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:51:51.180] INFO: request completed {
+  "bytes": 19,
+  "duration": "44.873µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37312",
+  "request_id": "srv451534/xAq0UAzTMN-000082",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:51:51.480] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.065µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37322",
+  "request_id": "srv451534/xAq0UAzTMN-000083",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:51:51.700] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.168µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37326",
+  "request_id": "srv451534/xAq0UAzTMN-000084",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[08:30:30.740] INFO: request completed {
+  "bytes": 19,
+  "duration": "28.283µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59306",
+  "request_id": "srv451534/xAq0UAzTMN-000085",
+  "status": 404,
+  "user_agent": ""
+}
+[08:47:47.743] INFO: request completed {
+  "bytes": 19,
+  "duration": "35.987µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:52586",
+  "request_id": "srv451534/xAq0UAzTMN-000086",
+  "status": 404,
+  "user_agent": ""
+}
+[08:49:49.541] INFO: request completed {
+  "bytes": 19,
+  "duration": "28.223µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:43748",
+  "request_id": "srv451534/xAq0UAzTMN-000087",
+  "status": 404,
+  "user_agent": "PostmanRuntime/7.37.3"
+}
+[08:52:52.746] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.455µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:38480",
+  "request_id": "srv451534/xAq0UAzTMN-000088",
+  "status": 404,
+  "user_agent": ""
+}
+[08:16:16.143] INFO: Request decoded {
+  "Request_id": "srv451534/xAq0UAzTMN-000089",
+  "op": "handlers.users.create.New",
+  "request": {
+    "username": "bizzar",
+    "chat_id": 0,
+    "name": "Aidos",
+    "image_url": "asdfasdf"
+  }
+}
+[08:16:16.180] INFO: User created {
+  "Request_id": "srv451534/xAq0UAzTMN-000089",
+  "op": "handlers.users.create.New",
+  "request": {
+    "username": "bizzar",
+    "chat_id": 0,
+    "name": "Aidos",
+    "image_url": "asdfasdf"
+  }
+}
+[08:16:16.180] INFO: request completed {
+  "bytes": 80,
+  "duration": "40.148588ms",
+  "method": "POST",
+  "path": "/users",
+  "remote_addr": "127.0.0.1:54856",
+  "request_id": "srv451534/xAq0UAzTMN-000089",
+  "status": 200,
+  "user_agent": "PostmanRuntime/7.37.3"
+}
+[08:41:41.032] INFO: request completed {
+  "bytes": 19,
+  "duration": "28.643µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37468",
+  "request_id": "srv451534/xAq0UAzTMN-000090",
+  "status": 404,
+  "user_agent": "PostmanRuntime/7.37.3"
+}
+[08:43:43.748] INFO: request completed {
+  "bytes": 19,
+  "duration": "21.619µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:56066",
+  "request_id": "srv451534/xAq0UAzTMN-000091",
+  "status": 404,
+  "user_agent": ""
+}
+[08:14:14.751] INFO: request completed {
+  "bytes": 19,
+  "duration": "51.936µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:59382",
+  "request_id": "srv451534/xAq0UAzTMN-000092",
+  "status": 404,
+  "user_agent": ""
+}
+[09:42:42.755] INFO: request completed {
+  "bytes": 19,
+  "duration": "29.274µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:58428",
+  "request_id": "srv451534/xAq0UAzTMN-000093",
+  "status": 404,
+  "user_agent": ""
+}
+[09:43:43.752] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.83µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:58442",
+  "request_id": "srv451534/xAq0UAzTMN-000094",
+  "status": 404,
+  "user_agent": ""
+}
+[09:43:43.756] INFO: request completed {
+  "bytes": 19,
+  "duration": "29.935µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:46894",
+  "request_id": "srv451534/xAq0UAzTMN-000095",
+  "status": 404,
+  "user_agent": ""
+}
+[09:42:42.760] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.524µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:41646",
+  "request_id": "srv451534/xAq0UAzTMN-000096",
+  "status": 404,
+  "user_agent": ""
+}
+[09:50:50.761] INFO: request completed {
+  "bytes": 19,
+  "duration": "20.498µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:41654",
+  "request_id": "srv451534/xAq0UAzTMN-000097",
+  "status": 404,
+  "user_agent": ""
+}
+[09:48:48.764] INFO: request completed {
+  "bytes": 19,
+  "duration": "33.783µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:36834",
+  "request_id": "srv451534/xAq0UAzTMN-000098",
+  "status": 404,
+  "user_agent": ""
+}
+[09:40:40.765] INFO: request completed {
+  "bytes": 19,
+  "duration": "20.909µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:45996",
+  "request_id": "srv451534/xAq0UAzTMN-000099",
+  "status": 404,
+  "user_agent": ""
+}
+[09:51:51.770] INFO: request completed {
+  "bytes": 19,
+  "duration": "23.394µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:40274",
+  "request_id": "srv451534/xAq0UAzTMN-000100",
+  "status": 404,
+  "user_agent": ""
+}
+2024/05/23 09:05:06 Config file not found: /path/to/your/config/file.yaml
+2024/05/23 09:05:18 Config file not found: /path/to/your/config/file.yaml
+[09:43:43.439] INFO: Starting server {
+  "env": "local"
+}
+[09:43:43.439] DEBUG: debug messages are enabled 
+[09:43:43.602] INFO: logger middleware enabled {
+  "component": "middleware/logger"
+}
+[09:43:43.602] INFO: Server started {
+  "addr": "localhost:8081"
+}
+[09:43:43.603] ERROR: failed to listen {
+  "error": {
+    "Op": "listen",
+    "Net": "tcp",
+    "Source": null,
+    "Addr": {
+      "IP": "127.0.0.1",
+      "Port": 8081,
+      "Zone": ""
+    },
+    "Err": {
+      "Syscall": "bind",
+      "Err": 98
+    }
+  }
+}
+[09:03:03.769] INFO: request completed {
+  "bytes": 19,
+  "duration": "24.084µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:54074",
+  "request_id": "srv451534/xAq0UAzTMN-000101",
+  "status": 404,
+  "user_agent": ""
+}
+[09:35:35.775] INFO: request completed {
+  "bytes": 19,
+  "duration": "29.845µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:39286",
+  "request_id": "srv451534/xAq0UAzTMN-000102",
+  "status": 404,
+  "user_agent": ""
+}
+[09:42:42.774] INFO: request completed {
+  "bytes": 19,
+  "duration": "25.256µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:50634",
+  "request_id": "srv451534/xAq0UAzTMN-000103",
+  "status": 404,
+  "user_agent": ""
+}
+[09:35:35.993] INFO: Starting server {
+  "env": "local"
+}
+[09:35:35.993] DEBUG: debug messages are enabled 
+[09:36:36.095] INFO: logger middleware enabled {
+  "component": "middleware/logger"
+}
+[09:36:36.096] INFO: Server started {
+  "addr": "localhost:8081"
+}
+[09:05:05.436] INFO: request completed {
+  "bytes": 0,
+  "duration": "42.349µs",
+  "method": "GET",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:37592",
+  "request_id": "srv451534/c9mZu9TpWX-000001",
+  "status": 405,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+[09:09:09.865] INFO: request completed {
+  "bytes": 19,
+  "duration": "699.808µs",
+  "method": "GET",
+  "path": "/",
+  "remote_addr": "127.0.0.1:37602",
+  "request_id": "srv451534/c9mZu9TpWX-000002",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+2024/05/23 09:09:21 Chat ID: 6884690315, Text: /start
+2024/05/23 09:09:21 Received /start command
+2024/05/23 09:09:21 Failed to create user: 6884690315 is greater than maximum value for Int4
+[09:21:21.780] INFO: request completed {
+  "bytes": 0,
+  "duration": "1.50947ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:34902",
+  "request_id": "srv451534/c9mZu9TpWX-000003",
+  "status": 0,
+  "user_agent": ""
+}
+2024/05/23 09:09:21 Chat ID: 6884690315, Text: /start
+2024/05/23 09:09:21 Received /start command
+2024/05/23 09:09:21 Failed to create user: 6884690315 is greater than maximum value for Int4
+[09:21:21.785] INFO: request completed {
+  "bytes": 0,
+  "duration": "104.033µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:34918",
+  "request_id": "srv451534/c9mZu9TpWX-000004",
+  "status": 0,
+  "user_agent": ""
+}
+2024/05/23 09:09:21 Chat ID: 6884690315, Text: /start
+2024/05/23 09:09:21 Received /start command
+2024/05/23 09:09:21 Failed to create user: 6884690315 is greater than maximum value for Int4
+[09:21:21.794] INFO: request completed {
+  "bytes": 0,
+  "duration": "123.178µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:34924",
+  "request_id": "srv451534/c9mZu9TpWX-000005",
+  "status": 0,
+  "user_agent": ""
+}
+2024/05/23 09:09:21 Chat ID: 6884690315, Text: /start
+2024/05/23 09:09:21 Received /start command
+2024/05/23 09:09:21 Failed to create user: 6884690315 is greater than maximum value for Int4
+[09:21:21.797] INFO: request completed {
+  "bytes": 0,
+  "duration": "95.507µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:34928",
+  "request_id": "srv451534/c9mZu9TpWX-000006",
+  "status": 0,
+  "user_agent": ""
+}
+[09:35:35.408] INFO: request completed {
+  "bytes": 17,
+  "duration": "61.954µs",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:33762",
+  "request_id": "srv451534/c9mZu9TpWX-000007",
+  "status": 400,
+  "user_agent": "PostmanRuntime/7.37.3"
+}
+2024/05/23 09:10:13 Chat ID: 1223740925, Text: /start
+2024/05/23 09:10:13 Received /start command
+[09:13:13.990] INFO: request completed {
+  "bytes": 0,
+  "duration": "205.992211ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:53204",
+  "request_id": "srv451534/c9mZu9TpWX-000008",
+  "status": 200,
+  "user_agent": ""
+}
+2024/05/23 09:10:13 Chat ID: 1223740925, Text: /start
+2024/05/23 09:10:13 Received /start command
+[09:14:14.190] INFO: request completed {
+  "bytes": 0,
+  "duration": "195.580337ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:53212",
+  "request_id": "srv451534/c9mZu9TpWX-000009",
+  "status": 200,
+  "user_agent": ""
+}
+2024/05/23 09:10:14 Chat ID: 1223740925, Text: /start
+2024/05/23 09:10:14 Received /start command
+[09:14:14.409] INFO: request completed {
+  "bytes": 0,
+  "duration": "215.59124ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:53214",
+  "request_id": "srv451534/c9mZu9TpWX-000010",
+  "status": 200,
+  "user_agent": ""
+}
+2024/05/23 09:10:14 Chat ID: 1223740925, Text: /start
+2024/05/23 09:10:14 Received /start command
+[09:14:14.590] INFO: request completed {
+  "bytes": 0,
+  "duration": "177.077941ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:53230",
+  "request_id": "srv451534/c9mZu9TpWX-000011",
+  "status": 200,
+  "user_agent": ""
+}
+2024/05/23 09:10:14 Chat ID: 1223740925, Text: /start
+2024/05/23 09:10:14 Received /start command
+[09:14:14.752] INFO: request completed {
+  "bytes": 0,
+  "duration": "158.603516ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:53236",
+  "request_id": "srv451534/c9mZu9TpWX-000012",
+  "status": 200,
+  "user_agent": ""
+}
+2024/05/23 09:10:14 Chat ID: 1223740925, Text: /start
+2024/05/23 09:10:14 Received /start command
+[09:14:14.905] INFO: request completed {
+  "bytes": 0,
+  "duration": "149.630858ms",
+  "method": "POST",
+  "path": "/api/telegram/webhook",
+  "remote_addr": "127.0.0.1:53244",
+  "request_id": "srv451534/c9mZu9TpWX-000013",
+  "status": 200,
+  "user_agent": ""
+}
+[09:22:22.354] INFO: request completed {
+  "bytes": 19,
+  "duration": "32.991µs",
+  "method": "GET",
+  "path": "/api/clients/1223740925",
+  "remote_addr": "127.0.0.1:53250",
+  "request_id": "srv451534/c9mZu9TpWX-000014",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1"
+}
+[09:30:30.060] INFO: request completed {
+  "bytes": 19,
+  "duration": "30.757µs",
+  "method": "GET",
+  "path": "/api/clients/1223740925",
+  "remote_addr": "127.0.0.1:38928",
+  "request_id": "srv451534/c9mZu9TpWX-000015",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1"
+}
+[09:32:32.717] INFO: request completed {
+  "bytes": 19,
+  "duration": "39.623µs",
+  "method": "GET",
+  "path": "/api/clients/1223740925",
+  "remote_addr": "127.0.0.1:56568",
+  "request_id": "srv451534/c9mZu9TpWX-000016",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1"
+}
+[09:07:07.340] INFO: request completed {
+  "bytes": 19,
+  "duration": "26.999µs",
+  "method": "GET",
+  "path": "/api/clients/1223740925",
+  "remote_addr": "127.0.0.1:51086",
+  "request_id": "srv451534/c9mZu9TpWX-000017",
+  "status": 404,
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1"
+}
